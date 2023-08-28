@@ -1,7 +1,4 @@
-package main
-
 import (
-	"fmt"
 	"math"
 	"strings"
 )
@@ -17,3 +14,4 @@ func reverseWords(s string) string {
 	}
 	return strings.Join(words, " ")
 }
+
